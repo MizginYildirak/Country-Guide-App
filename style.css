@@ -95,7 +95,7 @@ body {
     }
 
     .search-wrapper {
-        grid-template-columns: 9fr 3fr;
+        gap: 0.2em;
     }
 
     .search-wrapper input {
@@ -104,7 +104,7 @@ body {
 
     .search-wrapper button {
         font-size: 0.7em;
-        padding: 0.5em 0em;
+        padding: 0.7em 0em;
     }
 
     .container h2 {
