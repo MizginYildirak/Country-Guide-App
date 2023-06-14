@@ -88,3 +88,26 @@ body {
     gap: 1rem;
     text-align: start;
 }
+
+@media only screen and (max-width: 576px) {
+    .container {
+        padding: 3em 1em;
+    }
+
+    .search-wrapper {
+        grid-template-columns: 9fr 3fr;
+    }
+
+    .search-wrapper input {
+        font-size: 0.9em;
+    }
+
+    .search-wrapper button {
+        font-size: 0.7em;
+        padding: 0.5em 0em;
+    }
+
+    .container h2 {
+        font-size: 17px;
+    }
+}
